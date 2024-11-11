@@ -27,9 +27,9 @@ Project
     └── UiTests              // 界面功能测试
 ```
 项目的实现逻辑采用MVVM (Model-View-ViewModel)设计模式，MVVM 将视图逻辑与业务逻辑分离，便于代码维护和扩展。
-- Model：视图，封装 UI 与 UI 逻辑
+- View：视图，封装 UI 与 UI 逻辑
 - ViewModel：模型视图，封装展示逻辑与状态，将视图与业务逻辑相关联
-- View：封装程序的业务逻辑以及数据
+- Model：封装程序的业务逻辑以及数据
 
 ## 人员分工
 - UI界面设计：可使用现有的WPF组件库，如HandyControl，负责完成UI模块中的Views和VewModels部分
